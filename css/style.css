@@ -1,0 +1,160 @@
+.background{
+width: 90%;
+margin: 0 0 5% 5%;
+display: flex;
+flex-wrap: wrap;
+}
+.title{
+background-color: none;
+position: absolute;
+height: 20%;
+width: 40%;
+top: 60%;
+left: 90px;
+
+}
+
+.sub1{
+background-color: none;
+position: absolute;
+height: 2%;
+width: 1%;
+left: 40px;
+top: 64px;
+
+
+}
+
+.sub2{
+background-color: none;
+position: absolute;
+height: 2%;
+width: 1%;
+right: 40px;
+top: 460px;
+
+
+}
+
+.sub3{
+background-color: none;
+position: absolute;
+height: 2%;
+width: 23%;
+right: 125px;
+top: 850px;
+}
+
+.click{
+background-color: none;
+position: absolute;
+height: 2%;
+width: 13%;
+top: 920px;
+right: 800px;
+animation-name: click;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;	
+}
+
+@keyframes click{
+	0% {top:  920px}
+	50%{top: 910px}
+	100%{top: 920px;}
+}
+
+.logo{
+background-color: none;
+position: absolute;
+height: 3%;
+width: 3%;
+right: 33px;
+
+
+}
+
+.lego{
+background-image: url(../img/legob.png);
+background-size: cover;
+height: 50px;
+width: 50px;
+
+}
+.lego_1{
+background-image: url(../img/lego_red.png);
+background-size: cover;
+height: 50px;
+width:50px;
+top: 200px;
+right:175px;
+position: absolute;
+}
+.lego_2{
+background-image: url(../img/lego_red.png);
+background-size: cover;
+height: 50px;
+width: 50px;
+top: 450px;
+left: 896px;
+position: absolute;
+}
+.lego_4{
+background-image: url(../img/lego_blue.png);
+background-size: cover;
+height: 50px;
+width: 50px;
+top: 50px;
+left: 1496px;
+position: absolute;
+}
+.lego_3{
+background-image: url(../img/lego_blue.png);
+background-size: cover;
+height:50px;
+width: 50px;
+top: 500px;
+left:195px;
+position: absolute;
+
+
+}
+.lego_5{
+background-image: url(../img/lego_blue.png);
+background-size: cover;
+height:50px;
+width: 50px;
+top: 700px;
+left:846px;
+position: absolute;
+
+
+}
+.lego_6{
+background-image: url(../img/lego_red.png);
+background-size: cover;
+height: 50px;
+width: 50px;
+top: 50px;
+left: 96px;
+position: absolute;
+}
+.lego_7{
+background-image: url(../img/lego_red.png);
+background-size: cover;
+height: 50px;
+width: 50px;
+top: 800px;
+right: 275px;
+position: absolute;
+}
+
+.lego_8{
+background-image: url(../img/lego_blue.png);
+background-size: cover;
+height: 50px;
+width: 50px;
+top: 900px;
+left: 596px;
+position: absolute;
+}
